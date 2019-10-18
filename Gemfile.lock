@@ -70,7 +70,7 @@ GEM
     multi_json (1.10.0)
     newrelic_rpm (3.8.0.218)
     pg (0.17.1)
-    rack (1.5.2)
+    rack (1.6.11)
     rack-protection (1.5.3)
       rack
     ruby_parser (3.1.3)
