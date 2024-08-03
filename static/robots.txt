@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.justfuckinggoogleit.com/sitemap.xml
+Sitemap: http://www.justfuckinggoogleit.com/sitemap.xml
+Sitemap: https://justfuckinggoogleit.com/sitemap.xml
+Sitemap: http://justfuckinggoogleit.com/sitemap.xml
+
+
+Sitemap: https://www.justgoogleit.com/sitemap.xml
+Sitemap: http://www.justgoogleit.com/sitemap.xml
+Sitemap: https://justgoogleit.com/sitemap.xml
+Sitemap: http://justgoogleit.com/sitemap.xml
