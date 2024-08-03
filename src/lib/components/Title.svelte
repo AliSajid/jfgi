@@ -1,11 +1,5 @@
 <script lang="ts">
-  export let isExplicit: boolean = false;
-  let title: string = 'Just Google It';
-
-  if (isExplicit) {
-    console.log('Just Fucking Google It');
-    title = 'Just Fucking Google It';
-  }
+  export let title: string;
 </script>
 
 <div class="m-4 flex flex-row justify-center p-4">

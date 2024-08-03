@@ -9,11 +9,11 @@
   export let data: LayoutData;
 
   let visitorCount = data.count;
-  let isExplicit = data.explicit.isExplicit;
+  let title = data.siteName;
 </script>
 
 <div class="flex size-full h-screen flex-col">
-  <Title {isExplicit} />
+  <Title {title} />
   <Image />
   <slot />
   <VisitorCounter count={visitorCount} />

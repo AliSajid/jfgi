@@ -2,6 +2,9 @@
   import { browser } from '$app/environment';
   import { page } from '$app/stores';
   import CountdownTimer from '$lib/components/CountdownTimer.svelte';
+  import type { PageData } from '../$types';
+
+  let data: PageData;
 
   let timer = 20;
 
@@ -15,6 +18,12 @@
 
   console.log(mySearchQuery);
 </script>
+
+<svelte:head>
+  <title>
+    {data.siteName} -- Searching for {mySearchQuery}
+  </title>
+</svelte:head>
 
 <CountdownTimer {timer} />
 <div class="flex-row content-center object-center">
