@@ -1,15 +1,17 @@
-const site = 'https://justfuckinggoogleit.com'; // change this to reflect your domain
+import type { RequestHandler } from '@sveltejs/kit';
+
 const pages: string[] = ['']; // populate this with all the slugs you wish to include
 
-export async function GET() {
-  const body = sitemap(pages);
+export const GET: RequestHandler = ({ request }) => {
+  const site = request.headers.get('Host');
+  const body = sitemap(site, pages);
   const response = new Response(body);
   response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');
   response.headers.set('Content-Type', 'application/xml');
   return response;
-}
+};
 
-const sitemap = (pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (site: string, pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
