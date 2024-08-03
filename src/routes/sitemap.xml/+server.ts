@@ -3,8 +3,8 @@ import type { RequestHandler } from '@sveltejs/kit';
 const pages: string[] = ['']; // populate this with all the slugs you wish to include
 
 export const GET: RequestHandler = ({ request }) => {
-  const site = request.headers.get('Host');
-  const body = sitemap(site, pages);
+  const site: string = request.headers.get('Host') ?? 'http://localhost:5173';
+  const body: string = sitemap(site, pages);
   const response = new Response(body);
   response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');
   response.headers.set('Content-Type', 'application/xml');
