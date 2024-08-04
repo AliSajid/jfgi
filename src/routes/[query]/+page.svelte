@@ -4,7 +4,7 @@
   import CountdownTimer from '$lib/components/CountdownTimer.svelte';
   import type { PageData } from '../$types';
 
-  let data: PageData;
+  export let data: PageData;
 
   let timer = 20;
 
@@ -12,16 +12,17 @@
 
   setTimeout(() => {
     if (browser) {
+      performance.mark('redirecting to google');
       window.location.href = `https://www.google.com/search?q=${mySearchQuery}`;
     }
   }, timer * 1000);
 
-  console.log(mySearchQuery);
+  let title = data.siteName;
 </script>
 
 <svelte:head>
   <title>
-    {data.siteName} -- Searching for {mySearchQuery}
+    {title} -- Searching for {mySearchQuery}
   </title>
 </svelte:head>
 
