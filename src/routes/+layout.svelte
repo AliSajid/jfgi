@@ -1,11 +1,14 @@
 <script lang="ts" context="module">
   import { getPerformance } from 'firebase/performance';
+  import { getAnalytics } from 'firebase/analytics';
   import { app } from '$lib/firebase';
   import { browser } from '$app/environment';
 
   if (browser) {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const performance = getPerformance(app);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const analytics = getAnalytics(app);
   }
 </script>
 
