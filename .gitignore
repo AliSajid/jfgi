@@ -29,3 +29,6 @@ public/
 
 # Unignore the lib/ directory
 !src/lib
+
+# Ignore LTeX dictionary files
+ltex.*
