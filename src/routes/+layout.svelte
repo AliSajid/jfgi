@@ -1,4 +1,15 @@
-<script lang="ts" type="module">
+<script lang="ts" context="module">
+  import { getPerformance } from 'firebase/performance';
+  import { app } from '$lib/firebase';
+  import { browser } from '$app/environment';
+
+  if (browser) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const performance = getPerformance(app);
+  }
+</script>
+
+<script lang="ts">
   import '../app.css';
   import Title from '$lib/components/Title.svelte';
   import Image from '$lib/components/Image.svelte';

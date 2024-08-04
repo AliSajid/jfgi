@@ -1,5 +1,9 @@
 import { doc, getDoc, setDoc } from 'firebase/firestore';
-import { countersCollection } from '$lib/firebase';
+import { app } from '$lib/firebase';
+import { getFirestore, CollectionReference, collection } from 'firebase/firestore';
+import type { DocumentData } from 'firebase/firestore';
+
+const firestore = getFirestore(app);
 
 const getVisitors = async () => {
   const counterRef = doc(countersCollection, 'visitors');
@@ -24,5 +28,13 @@ const getVisitors = async () => {
     return update.count;
   }
 };
+
+const createCollection = <T = DocumentData>(collectionName: string) => {
+  return collection(firestore, collectionName) as CollectionReference<T>;
+};
+
+// Add the cont type
+import type { Counter } from '$lib/types/Counter';
+const countersCollection = createCollection<Counter>('count');
 
 export default getVisitors;
