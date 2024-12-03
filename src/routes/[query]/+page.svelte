@@ -26,7 +26,7 @@
   </title>
   <meta
     name="description"
-    content="{data.siteName} Search Page -- politely* tell people to Google things first"
+    content="{data.siteName} Search Page -- politely* telling people to Google things first"
   />
   <meta name="charset" content="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -1,10 +1,10 @@
-default_stages: [commit]
+default_stages: [pre-commit]
 
 default_install_hook_types: [pre-commit, commit-msg]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-case-conflict
       - id: check-symlinks
@@ -52,7 +52,7 @@ repos:
         args:
           - '--ignore-words-list'
           - 'ons'
-        stages: [commit, commit-msg]
+        stages: [pre-commit, commit-msg]
         exclude: pnpm-lock.yaml
 
   - repo: https://github.com/pre-commit/mirrors-eslint
