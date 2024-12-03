@@ -1,7 +1,7 @@
 {
   "name": "jfgi",
   "version": "0.9.9",
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.14.4",
   "scripts": {
     "dev": "vite dev --host 0.0.0.0",
     "build": "vite build",
