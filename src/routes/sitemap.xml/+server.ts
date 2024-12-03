@@ -11,7 +11,12 @@ export const GET: RequestHandler = ({ request }) => {
   return response;
 };
 
-const sitemap = (site: string, pages: string[]) => `<?xml version="1.0" encoding="UTF-8" ?>
+const sitemap = (site: string, pages: string[]) => {
+  // Ensure the site includes the protocol (http/https)
+  const sanitizedSite =
+    site.startsWith('http://') || site.startsWith('https://') ? site : `https://${site}`;
+
+  return `<?xml version="1.0" encoding="UTF-8" ?>
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
@@ -23,10 +28,11 @@ const sitemap = (site: string, pages: string[]) => `<?xml version="1.0" encoding
     .map(
       (page) => `
   <url>
-    <loc>${site}/${page}</loc>
+    <loc>${sanitizedSite}/${encodeURIComponent(page)}</loc>
     <priority>1.0</priority>
   </url>
   `
     )
     .join('')}
 </urlset>`;
+};
