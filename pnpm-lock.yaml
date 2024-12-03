@@ -22,97 +22,97 @@ importers:
         version: 10.12.4
     devDependencies:
       '@eslint/js':
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       '@playwright/test':
-        specifier: ^1.45.3
+        specifier: 1.45.3
         version: 1.45.3
       '@sveltejs/enhanced-img':
-        specifier: ^0.3.1
+        specifier: 0.3.1
         version: 0.3.1(rollup@4.19.1)(svelte@4.2.18)(vite@5.3.5(@types/node@18.19.42))
       '@sveltejs/kit':
-        specifier: ^2.5.18
+        specifier: 2.5.18
         version: 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@18.19.42)))(svelte@4.2.18)(vite@5.3.5(@types/node@18.19.42))
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^3.1.1
+        specifier: 3.1.1
         version: 3.1.1(svelte@4.2.18)(vite@5.3.5(@types/node@18.19.42))
       '@tailwindcss/aspect-ratio':
-        specifier: ^0.4.2
+        specifier: 0.4.2
         version: 0.4.2(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       '@tailwindcss/container-queries':
-        specifier: ^0.1.1
+        specifier: 0.1.1
         version: 0.1.1(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       '@types/eslint__js':
-        specifier: ^8.42.3
+        specifier: 8.42.3
         version: 8.42.3
       '@types/node':
-        specifier: ^18.19.42
+        specifier: 18.19.42
         version: 18.19.42
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: 10.4.19
         version: 10.4.19(postcss@8.4.40)
       daisyui:
-        specifier: ^4.12.10
+        specifier: 4.12.10
         version: 4.12.10(postcss@8.4.40)
       eslint:
-        specifier: ^9.8.0
+        specifier: 9.8.0
         version: 9.8.0
       eslint-config-prettier:
-        specifier: ^9.1.0
+        specifier: 9.1.0
         version: 9.1.0(eslint@9.8.0)
       eslint-plugin-svelte:
-        specifier: ^2.43.0
+        specifier: 2.43.0
         version: 2.43.0(eslint@9.8.0)(svelte@4.2.18)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
       eslint-plugin-tailwindcss:
-        specifier: ^3.17.4
+        specifier: 3.17.4
         version: 3.17.4(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       firebase-tools:
-        specifier: ^13.6.0
+        specifier: 13.6.0
         version: 13.6.0(encoding@0.1.13)
       globals:
-        specifier: ^15.8.0
+        specifier: 15.8.0
         version: 15.8.0
       postcss:
-        specifier: ^8.4.40
+        specifier: 8.4.40
         version: 8.4.40
       prettier:
-        specifier: ^3.3.3
+        specifier: 3.3.3
         version: 3.3.3
       prettier-plugin-svelte:
-        specifier: ^3.2.6
+        specifier: 3.2.6
         version: 3.2.6(prettier@3.3.3)(svelte@4.2.18)
       prettier-plugin-tailwindcss:
-        specifier: ^0.6.5
+        specifier: 0.6.5
         version: 0.6.5(prettier-plugin-svelte@3.2.6(prettier@3.3.3)(svelte@4.2.18))(prettier@3.3.3)
       svelte:
-        specifier: ^4.2.18
+        specifier: 4.2.18
         version: 4.2.18
       svelte-check:
-        specifier: ^3.8.5
+        specifier: 3.8.5
         version: 3.8.5(postcss-load-config@4.0.2(postcss@8.4.40)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))(postcss@8.4.40)(svelte@4.2.18)
       svelte-preprocess:
-        specifier: ^5.1.4
+        specifier: 5.1.4
         version: 5.1.4(postcss-load-config@4.0.2(postcss@8.4.40)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))(postcss@8.4.40)(svelte@4.2.18)(typescript@5.5.4)
       tailwindcss:
-        specifier: ^3.4.7
+        specifier: 3.4.7
         version: 3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
       tslib:
-        specifier: ^2.6.3
+        specifier: 2.6.3
         version: 2.6.3
       typescript:
-        specifier: ^5.5.4
+        specifier: 5.5.4
         version: 5.5.4
       typescript-eslint:
         specifier: 8.0.0-alpha.52
         version: 8.0.0-alpha.52(eslint@9.8.0)(typescript@5.5.4)
       vercel:
-        specifier: ^35.2.2
+        specifier: 35.2.2
         version: 35.2.2(encoding@0.1.13)
       vite:
-        specifier: ^5.3.5
+        specifier: 5.3.5
         version: 5.3.5(@types/node@18.19.42)
       vitest:
-        specifier: ^2.0.4
+        specifier: 2.0.4
         version: 2.0.4(@edge-runtime/vm@3.2.0)(@types/node@18.19.42)
 
 packages:
@@ -2421,7 +2421,6 @@ packages:
     resolution: {integrity: sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
-    deprecated: '"Please update to latest v2.3 or v2.2"'
 
   fsevents@2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
