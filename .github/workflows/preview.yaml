@@ -41,11 +41,11 @@ jobs:
       checks: write
       actions: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
+      - uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7 # v3
         with:
           node-version: 16
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@eae0cfeb286e66ffb5155f1a79b90583a127a68b # v2.4.1
         with:
           #          version: 7.0.0
           run_install: false
@@ -53,7 +53,7 @@ jobs:
         id: pnpm-cache
         run: |
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
-      - uses: actions/cache@v3
+      - uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3
         name: Setup pnpm cache
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
@@ -69,7 +69,7 @@ jobs:
         run: |
           echo "validity=$(echo '${{ github.event.inputs.validity }}' | sed 's/ day\(s\)\?/d/')" >> $GITHUB_OUTPUT
       - name: Deploy
-        uses: FirebaseExtended/action-hosting-deploy@v0
+        uses: FirebaseExtended/action-hosting-deploy@d482eb942f549f059116ec36b191860128553142 # v0
         id: deploy
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
@@ -79,9 +79,9 @@ jobs:
           expires: ${{ steps.validity.outputs.validity }}
       - name: Inject slug/short variables
         id: slugs
-        uses: rlespinasse/github-slug-action@v4
+        uses: rlespinasse/github-slug-action@797d68864753cbceedc271349d402da4590e6302 # v4
       - name: Create Issue
-        uses: dblock/create-a-github-issue@v3
+        uses: dblock/create-a-github-issue@c5e54b8762a0c4c2cd9330750e30b81bcc369c38 # v3
         if: ${{ success() }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
