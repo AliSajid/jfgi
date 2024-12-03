@@ -51,6 +51,6 @@
     "@sentry/svelte": "^7.118.0",
     "@sentry/tracing": "^7.114.0",
     "@sveltejs/adapter-vercel": "^5.4.1",
-    "firebase": "^10.12.4"
+    "firebase": "^11.0.0"
   }
 }
