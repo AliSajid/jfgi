@@ -1,10 +1,10 @@
-default_stages: [commit]
+default_stages: [pre-commit]
 
 default_install_hook_types: [pre-commit, commit-msg]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-case-conflict
       - id: check-symlinks
@@ -41,7 +41,7 @@ repos:
         args: [--config-file, utils/.yamllint.yml]
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.41.0
+    rev: v0.43.0
     hooks:
       - id: markdownlint
 
@@ -52,11 +52,11 @@ repos:
         args:
           - '--ignore-words-list'
           - 'ons'
-        stages: [commit, commit-msg]
+        stages: [pre-commit, commit-msg]
         exclude: pnpm-lock.yaml
 
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v9.7.0
+    rev: v9.16.0
     hooks:
       - id: eslint
         types: [file]
@@ -69,19 +69,19 @@ repos:
           - '@typescript-eslint/eslint-plugin'
           - '@typescript-eslint/parser'
   - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v3.3.0
+    rev: v3.6.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.6.6
+    rev: 0.6.8
     hooks:
       - id: fix-smartquotes
       - id: fix-ligatures
       - id: forbid-bidi-controls
 
   - repo: https://github.com/zricethezav/gitleaks
-    rev: v8.18.4
+    rev: v8.21.2
     hooks:
       - id: gitleaks
   - repo: https://github.com/Yelp/detect-secrets
