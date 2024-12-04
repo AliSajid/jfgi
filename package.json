@@ -24,7 +24,7 @@
     "@types/eslint__js": "8.42.3",
     "@types/node": "18.19.42",
     "@vitejs/plugin-basic-ssl": "^1.2.0",
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "daisyui": "4.12.10",
     "eslint": "9.8.0",
     "eslint-config-prettier": "9.1.0",
