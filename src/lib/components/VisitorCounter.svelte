@@ -1,4 +1,4 @@
-<script lang="ts" type="module">
+<script lang="ts">
   import type { Counter } from '$lib/types/Counter';
   import { suffixes } from '$lib/suffixes';
   export let count: Counter;
@@ -24,8 +24,11 @@
   <footer class="footer footer-center m-2">
     <p class="footer-center inline place-content-center p-4 font-mono text-xs">
       Made with <span class="text-red-500">❤️</span> by
-      <a class="link link-info" href="https://github.com/AliSajid" target="_blank" rel="noopener"
-        >Ali Sajid Imami</a
+      <a
+        class="link link-info text-[#2360CF]"
+        href="https://github.com/AliSajid"
+        target="_blank"
+        rel="noopener">Ali Sajid Imami</a
       >
     </p>
   </footer>
