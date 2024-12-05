@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
 SPDX-License-Identifier: MIT
 -->
 
-<script lang="ts" context="module">
+<script lang="ts" module>
   import { getPerformance } from 'firebase/performance';
   import { getAnalytics } from 'firebase/analytics';
   import { app } from '$lib/firebase';
@@ -26,7 +26,12 @@ SPDX-License-Identifier: MIT
 
   import type { LayoutData } from './$types';
 
-  export let data: LayoutData;
+  interface Props {
+    data: LayoutData;
+    children?: import('svelte').Snippet;
+  }
+
+  let { data, children }: Props = $props();
 
   let visitorCount = data.count;
   let title = data.siteName;
@@ -35,6 +40,6 @@ SPDX-License-Identifier: MIT
 <div class="flex size-full h-screen flex-col">
   <Title {title} />
   <Image />
-  <slot />
+  {@render children?.()}
   <VisitorCounter count={visitorCount} />
 </div>
