@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
 

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 <script lang="ts" context="module">
   import { getPerformance } from 'firebase/performance';
   import { getAnalytics } from 'firebase/analytics';

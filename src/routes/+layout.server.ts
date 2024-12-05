@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import type { LayoutServerLoad } from './$types';
 import getVisitors from '$lib/server/counter';
 

@@ -1,0 +1,77 @@
+version = 1
+SPDX-PackageName = "jfgi"
+SPDX-PackageSupplier = "Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/AliSajid/jfgi"
+
+[[annotations]]
+path = "renovate.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["package.json", "pnpm-lock.yaml", "tsconfig.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [".github/workflows/**.yaml", ".github/*.yaml", ".github/**/*.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [".gitignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+  ".markdownlintignore",
+  ".markdownlint.json",
+  ".yamllint.yaml",
+  ".eslintignore",
+  ".prettierignore",
+  ".prettierrc",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [".mise.toml", ".pre-commit-config.yaml"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+  "src/lib/components/images/*.png",
+  "static/images/*.png",
+  "static/favicon*.png",
+  "static/android-chrome*.png",
+  "static/apple-touch-icon*.png",
+  "static/favicon*.ico",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+
+[[annotations]]
+path = ["static/robots.txt", "static/site.webmanifest"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = [
+  "utils/firebase/*.json",
+  "utils/firebase/*.rules",
+  "firebase.json",
+  ".firebaserc",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2022 - 2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"

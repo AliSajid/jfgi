@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 # Just fucking Google It
 
 [![Build Status](https://github.com/your-username/justfuckinggoogleit/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/justfuckinggoogleit/actions)
