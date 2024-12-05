@@ -47,6 +47,10 @@ This is the third incarnation of the project:
 
 We'd love your help! Check out our [Contributing Guide](./CONTRIBUTING.md) to learn how you can get involved.
 
+## Acknowledgements
+
+We would like to acknowledge [Browserstack](https://browserstack.com) for sponsoring the testing for this project. This project is tested with BrowserStack
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
