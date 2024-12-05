@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { app } from '$lib/firebase';
 import { getFirestore, CollectionReference, collection } from 'firebase/firestore';
