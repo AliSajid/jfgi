@@ -6,12 +6,16 @@ SPDX-License-Identifier: MIT
 
 <script lang="ts">
   import { browser } from '$app/environment';
-  export let timer: number = 10;
+  interface Props {
+    timer?: number;
+  }
+
+  let { timer = 10 }: Props = $props();
 
   let duration: number = timer * 1000;
   let elapsed: number = duration;
-  let currentSecond: number = Math.round(elapsed / 1000);
-  let currentProgress: number = 100 - (elapsed / duration) * 100;
+  let currentSecond: number = $state(Math.round(elapsed / 1000));
+  let currentProgress: number = $state(100 - (elapsed / duration) * 100);
 
   let frame;
   if (browser) {
