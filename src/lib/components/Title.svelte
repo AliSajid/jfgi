@@ -5,7 +5,11 @@ SPDX-License-Identifier: MIT
 -->
 
 <script lang="ts">
-  export let title: string;
+  interface Props {
+    title: string;
+  }
+
+  let { title }: Props = $props();
 </script>
 
 <div class="m-4 flex flex-row justify-center p-4">

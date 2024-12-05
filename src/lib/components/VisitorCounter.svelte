@@ -7,7 +7,11 @@ SPDX-License-Identifier: MIT
 <script lang="ts">
   import type { Counter } from '$lib/types/Counter';
   import { suffixes } from '$lib/suffixes';
-  export let count: Counter;
+  interface Props {
+    count: Counter;
+  }
+
+  let { count }: Props = $props();
 
   // Extract the visitor count from the Counter object passed in;
   const visitorCount = count.count;

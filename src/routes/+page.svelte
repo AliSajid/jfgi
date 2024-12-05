@@ -8,7 +8,11 @@ SPDX-License-Identifier: MIT
   import Reprimand from '$lib/components/Reprimand.svelte';
   import type { PageData } from './$types';
 
-  export let data: PageData;
+  interface Props {
+    data: PageData;
+  }
+
+  let { data }: Props = $props();
 
   const siteName = data.siteName;
 </script>
