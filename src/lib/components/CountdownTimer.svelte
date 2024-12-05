@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 <script lang="ts">
   import { browser } from '$app/environment';
   export let timer: number = 10;

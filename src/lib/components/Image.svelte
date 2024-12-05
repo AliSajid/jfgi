@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 <script lang="ts">
   import yoda from '$lib/components/images/0637f1c2-d890-4510-9e80-830a3ee5ffe3.png?enhanced';
   import drake from '$lib/components/images/cd4cebb4-5acb-45cf-a3cb-a3ba80ba11ba.png?enhanced';

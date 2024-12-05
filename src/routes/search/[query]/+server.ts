@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import type { RequestHandler } from '@sveltejs/kit';
 
 export const GET: RequestHandler = ({ url }) => {

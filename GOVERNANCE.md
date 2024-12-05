@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 # Governance
 
 Welcome to the wonderful bureaucracy of **Just F\*\*\*\*** Google It\*\*. Here's how decisions are made around here.

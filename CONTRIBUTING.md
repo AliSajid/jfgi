@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+
+SPDX-License-Identifier: MIT
+-->
+
 # Contributing to Just F**\*\*** Google It
 
 Thank you for considering contributing to this ridiculous yet oddly useful project! Here's how you can help us make it even better.
