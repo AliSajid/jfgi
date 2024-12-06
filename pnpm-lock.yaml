@@ -31,7 +31,7 @@ importers:
         specifier: 2.9.0
         version: 2.9.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.5.2)(vite@6.0.3(@types/node@22.10.1)(jiti@1.21.6)(yaml@2.6.1)))(svelte@5.5.2)(vite@6.0.3(@types/node@22.10.1)(jiti@1.21.6)(yaml@2.6.1))
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^5.0.1
+        specifier: 5.0.1
         version: 5.0.1(svelte@5.5.2)(vite@6.0.3(@types/node@22.10.1)(jiti@1.21.6)(yaml@2.6.1))
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
@@ -46,13 +46,13 @@ importers:
         specifier: 22.10.1
         version: 22.10.1
       '@vitejs/plugin-basic-ssl':
-        specifier: ^1.2.0
+        specifier: 1.2.0
         version: 1.2.0(vite@6.0.3(@types/node@22.10.1)(jiti@1.21.6)(yaml@2.6.1))
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.40)
       browserslist-useragent-regexp:
-        specifier: ^4.1.3
+        specifier: 4.1.3
         version: 4.1.3(browserslist@4.24.2)
       daisyui:
         specifier: 4.12.14
@@ -64,7 +64,7 @@ importers:
         specifier: 9.1.0
         version: 9.1.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-svelte:
-        specifier: ^2.46.1
+        specifier: 2.46.1
         version: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.5.2)(ts-node@10.9.1(@types/node@22.10.1)(typescript@5.5.4))
       eslint-plugin-tailwindcss:
         specifier: 3.17.5
@@ -91,10 +91,10 @@ importers:
         specifier: 5.5.2
         version: 5.5.2
       svelte-check:
-        specifier: ^4.1.1
+        specifier: 4.1.1
         version: 4.1.1(picomatch@4.0.2)(svelte@5.5.2)(typescript@5.5.4)
       svelte-preprocess:
-        specifier: ^6.0.3
+        specifier: 6.0.3
         version: 6.0.3(postcss-load-config@4.0.2(postcss@8.4.40)(ts-node@10.9.1(@types/node@22.10.1)(typescript@5.5.4)))(postcss@8.4.40)(svelte@5.5.2)(typescript@5.5.4)
       tailwindcss:
         specifier: 3.4.7
