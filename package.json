@@ -59,6 +59,6 @@
   "dependencies": {
     "@sentry/tracing": "^7.114.0",
     "@sveltejs/adapter-vercel": "^5.5.0",
-    "firebase": "^10.14.1"
+    "firebase": "^11.0.2"
   }
 }
