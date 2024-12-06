@@ -35,10 +35,10 @@ importers:
         version: 5.0.1(svelte@5.5.2)(vite@6.0.2(@types/node@18.19.42)(jiti@1.21.6)(yaml@2.6.1))
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
-        version: 0.4.2(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
+        version: 0.4.2(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       '@tailwindcss/container-queries':
         specifier: 0.1.1
-        version: 0.1.1(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
+        version: 0.1.1(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       '@types/eslint__js':
         specifier: 8.42.3
         version: 8.42.3
@@ -68,7 +68,7 @@ importers:
         version: 2.46.1(eslint@9.8.0)(svelte@5.5.2)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
       eslint-plugin-tailwindcss:
         specifier: 3.17.5
-        version: 3.17.5(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
+        version: 3.17.5(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       firebase-tools:
         specifier: 13.28.0
         version: 13.28.0(encoding@0.1.13)
@@ -97,8 +97,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3(postcss-load-config@4.0.2(postcss@8.4.49)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))(postcss@8.4.49)(svelte@5.5.2)(typescript@5.5.4)
       tailwindcss:
-        specifier: 3.4.7
-        version: 3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
+        specifier: 3.4.16
+        version: 3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
       tslib:
         specifier: 2.6.3
         version: 2.6.3
@@ -4354,8 +4354,8 @@ packages:
     resolution: {integrity: sha512-ZBVFfZuN5HOIWmpp1Hi0x2PL2CS4cw880quk479mSdQ9avpAEFcKvbYWZuKt/j01YQz5i0tfIUDCY2hMDB+KKg==}
     engines: {node: '>=18'}
 
-  tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  tailwindcss@3.4.16:
+    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5892,13 +5892,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))':
+  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))':
     dependencies:
-      tailwindcss: 3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
+      tailwindcss: 3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
 
-  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))':
+  '@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))':
     dependencies:
-      tailwindcss: 3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
+      tailwindcss: 3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
 
   '@tootallnate/once@2.0.0': {}
 
@@ -7202,11 +7202,11 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))):
+  eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.49
-      tailwindcss: 3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
+      tailwindcss: 3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
 
   eslint-scope@7.2.2:
     dependencies:
@@ -9487,7 +9487,7 @@ snapshots:
       magic-string: 0.30.14
       zimmerframe: 1.1.2
 
-  tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)):
+  tailwindcss@3.4.16(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -9498,7 +9498,7 @@ snapshots:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       jiti: 1.21.6
-      lilconfig: 2.1.0
+      lilconfig: 3.1.3
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
