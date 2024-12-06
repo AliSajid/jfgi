@@ -32,3 +32,6 @@ public/
 
 # Ignore LTeX dictionary files
 ltex.*
+
+# Ignore the test results directory from playwright
+test-results/
