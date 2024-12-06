@@ -67,8 +67,8 @@ importers:
         specifier: ^2.46.1
         version: 2.46.1(eslint@9.8.0)(svelte@5.5.2)(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))
       eslint-plugin-tailwindcss:
-        specifier: 3.17.4
-        version: 3.17.4(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
+        specifier: 3.17.5
+        version: 3.17.5(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4)))
       firebase-tools:
         specifier: 13.28.0
         version: 13.28.0(encoding@0.1.13)
@@ -2306,8 +2306,8 @@ packages:
       svelte:
         optional: true
 
-  eslint-plugin-tailwindcss@3.17.4:
-    resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
+  eslint-plugin-tailwindcss@3.17.5:
+    resolution: {integrity: sha512-8Mi7p7dm+mO1dHgRHHFdPu4RDTBk69Cn4P0B40vRQR+MrguUpwmKwhZy1kqYe3Km8/4nb+cyrCF+5SodOEmaow==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -7206,7 +7206,7 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))):
+  eslint-plugin-tailwindcss@3.17.5(tailwindcss@3.4.7(ts-node@10.9.1(@types/node@18.19.42)(typescript@5.5.4))):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.40
