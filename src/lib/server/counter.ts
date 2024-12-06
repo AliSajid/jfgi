@@ -37,7 +37,7 @@ const createCollection = <T = DocumentData>(collectionName: string) => {
   return collection(firestore, collectionName) as CollectionReference<T>;
 };
 
-// Add the cont type
+// Add the count type
 import type { Counter } from '$lib/types/Counter';
 const countersCollection = createCollection<Counter>('count');
 
