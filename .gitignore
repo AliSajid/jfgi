@@ -35,3 +35,6 @@ ltex.*
 
 # Ignore the test results directory from playwright
 test-results/
+
+# Sentry Config File
+.env.sentry-build-plugin

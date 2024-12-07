@@ -1,3 +1,4 @@
+import { sentrySvelteKit } from '@sentry/sveltekit';
 // SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
 //
 // SPDX-License-Identifier: CC0-1.0
@@ -7,7 +8,16 @@ import { enhancedImages } from '@sveltejs/enhanced-img';
 import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-  plugins: [enhancedImages(), sveltekit()],
+  plugins: [
+    sentrySvelteKit({
+      sourceMapsUploadOptions: {
+        org: 'imamiland',
+        project: 'jfgi'
+      }
+    }),
+    enhancedImages(),
+    sveltekit()
+  ],
   test: {
     include: ['src/**/*.{test,spec}.{js,ts}']
   }
