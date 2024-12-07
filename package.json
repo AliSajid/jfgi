@@ -66,6 +66,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@sentry/node": "^8.42.0",
+    "@sentry/sveltekit": "^8",
     "@sentry/tracing": "7.114.0",
     "@sveltejs/adapter-vercel": "5.6.1",
     "firebase": "11.0.2",
