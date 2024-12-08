@@ -40,6 +40,7 @@
     "eslint-plugin-tailwindcss": "3.17.5",
     "firebase-tools": "13.28.0",
     "globals": "15.13.0",
+    "jsdom": "^25.0.1",
     "postcss": "8.4.49",
     "prettier": "3.4.2",
     "prettier-plugin-svelte": "3.3.2",
@@ -59,6 +60,7 @@
   "dependencies": {
     "@sentry/tracing": "7.114.0",
     "@sveltejs/adapter-vercel": "5.5.0",
-    "firebase": "11.0.2"
+    "firebase": "11.0.2",
+    "playwright": "^1.49.0"
   }
 }
