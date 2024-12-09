@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Reprimand Component > matches desktop snapshot 1`] = `
+<div>
+  <div
+    class="m-2 mx-auto flex-row content-center justify-center"
+    id="reprimand"
+  >
+    <p
+      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+    >
+      Make sure you Google stuff yourself first.
+    </p>
+  </div>
+  
+</div>
+`;
+
+exports[`Reprimand Component > matches laptop snapshot 1`] = `
+<div>
+  <div
+    class="m-2 mx-auto flex-row content-center justify-center"
+    id="reprimand"
+  >
+    <p
+      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+    >
+      Make sure you Google stuff yourself first.
+    </p>
+  </div>
+  
+</div>
+`;
+
+exports[`Reprimand Component > matches mobile snapshot 1`] = `
+<div>
+  <div
+    class="m-2 mx-auto flex-row content-center justify-center"
+    id="reprimand"
+  >
+    <p
+      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+    >
+      Make sure you Google stuff yourself first.
+    </p>
+  </div>
+  
+</div>
+`;
+
+exports[`Reprimand Component > matches tablet snapshot 1`] = `
+<div>
+  <div
+    class="m-2 mx-auto flex-row content-center justify-center"
+    id="reprimand"
+  >
+    <p
+      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+    >
+      Make sure you Google stuff yourself first.
+    </p>
+  </div>
+  
+</div>
+`;
