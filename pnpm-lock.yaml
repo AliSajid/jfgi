@@ -79,7 +79,7 @@ importers:
         specifier: 15.13.0
         version: 15.13.0
       jsdom:
-        specifier: ^25.0.1
+        specifier: 25.0.1
         version: 25.0.1
       postcss:
         specifier: 8.4.49
@@ -6266,7 +6266,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -7889,7 +7889,7 @@ snapshots:
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8662,7 +8662,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.1
-      debug: 4.3.7
+      debug: 4.4.0
       get-uri: 6.0.4
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.5
@@ -9300,7 +9300,7 @@ snapshots:
   socks-proxy-agent@8.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.7
+      debug: 4.4.0
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
