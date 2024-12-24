@@ -79,7 +79,7 @@ importers:
         specifier: 15.13.0
         version: 15.13.0
       jsdom:
-        specifier: ^25.0.1
+        specifier: 25.0.1
         version: 25.0.1
       postcss:
         specifier: 8.4.49
