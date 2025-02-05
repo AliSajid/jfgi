@@ -1,8 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "assignees": ["AliSajid"],
-  "baseBranches": ["next"],
-  "extends": ["config:best-practices", "group:githubArtifactActions", ":rebaseStalePrs"],
+  "baseBranchPatterns": ["next"],
+  "extends": [
+    "config:best-practices",
+    "group:githubArtifactActions",
+    ":rebaseStalePrs"
+  ],
   "labels": ["dependencies", "renovate"],
   "packageRules": [
     {
@@ -33,6 +37,10 @@
     "enabled": true
   },
   "prHourlyLimit": 5,
-  "schedule": ["after 8pm every weekday", "before 8am every weekday", "on saturday"],
+  "schedule": [
+    "after 8pm every weekday",
+    "before 8am every weekday",
+    "on saturday"
+  ],
   "semanticCommits": "enabled"
 }

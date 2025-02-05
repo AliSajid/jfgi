@@ -13,7 +13,7 @@ exports[`Reprimand Component > matches desktop snapshot 1`] = `
       Make sure you Google stuff yourself first.
     </p>
   </div>
-
+  
 </div>
 `;
 
@@ -30,7 +30,7 @@ exports[`Reprimand Component > matches laptop snapshot 1`] = `
       Make sure you Google stuff yourself first.
     </p>
   </div>
-
+  
 </div>
 `;
 
@@ -47,7 +47,7 @@ exports[`Reprimand Component > matches mobile snapshot 1`] = `
       Make sure you Google stuff yourself first.
     </p>
   </div>
-
+  
 </div>
 `;
 
@@ -64,6 +64,6 @@ exports[`Reprimand Component > matches tablet snapshot 1`] = `
       Make sure you Google stuff yourself first.
     </p>
   </div>
-
+  
 </div>
 `;
