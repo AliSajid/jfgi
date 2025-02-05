@@ -11,6 +11,6 @@ exports[`Title > matches snapshot 1`] = `
       Snapshot Title
     </h1>
   </div>
-
+  
 </div>
 `;

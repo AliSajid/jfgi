@@ -41,3 +41,6 @@ test-results/
 
 # Ignore VS Code configuration
 .vscode/
+
+# Oh My Openagent
+.omo/
