@@ -61,6 +61,6 @@
     "@sentry/tracing": "7.114.0",
     "@sveltejs/adapter-vercel": "5.5.0",
     "firebase": "11.0.2",
-    "playwright": "^1.49.0"
+    "playwright": "^1.50.1"
   }
 }
