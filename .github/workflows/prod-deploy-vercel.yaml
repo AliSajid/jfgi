@@ -39,6 +39,10 @@ jobs:
         with:
           node-version: '22'
           cache: 'pnpm'
+      - name: Install pnpm
+        uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
+        with:
+          run_install: false
       - name: Install dependencies
         run: pnpm install
       - name: Ensure playwright has the latest browser binaries
