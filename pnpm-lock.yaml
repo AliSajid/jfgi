@@ -13,7 +13,7 @@ importers:
         version: 7.114.0
       '@sveltejs/adapter-vercel':
         specifier: 5.6.1
-        version: 5.6.1(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)
+        version: 5.6.1(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)
       firebase:
         specifier: 11.0.2
         version: 11.0.2
@@ -31,11 +31,11 @@ importers:
         specifier: 0.4.1
         version: 0.4.1(rollup@4.34.6)(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@sveltejs/kit':
-        specifier: 2.15.0
-        version: 2.15.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+        specifier: 2.17.1
+        version: 2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@sveltejs/vite-plugin-svelte':
-        specifier: 5.0.1
-        version: 5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+        specifier: 5.0.3
+        version: 5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
         version: 0.4.2(tailwindcss@3.4.17(ts-node@10.9.1(@types/node@22.13.1)(typescript@5.7.3)))
@@ -1308,8 +1308,8 @@ packages:
       svelte: ^5.0.0
       vite: '>= 5.0.0'
 
-  '@sveltejs/kit@2.15.0':
-    resolution: {integrity: sha512-FI1bhfhFNGI2sKg+BhiRyM4eaOvX+KZqRYSQqL5PK3ZZREX2xufZ6MzZAw79N846OnIxYNqcz/3VOUq+FPDd3w==}
+  '@sveltejs/kit@2.17.1':
+    resolution: {integrity: sha512-CpoGSLqE2MCmcQwA2CWJvOsZ9vW+p/1H3itrFykdgajUNAEyQPbsaSn7fZb6PLHQwe+07njxje9ss0fjZoCAyw==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -1325,8 +1325,8 @@ packages:
       svelte: ^5.0.0
       vite: ^6.0.0
 
-  '@sveltejs/vite-plugin-svelte@5.0.1':
-    resolution: {integrity: sha512-D5l5+STmywGoLST07T9mrqqFFU+xgv5fqyTWM+VbxTvQ6jujNn4h3lQNCvlwVYs4Erov8i0K5Rwr3LQtmBYmBw==}
+  '@sveltejs/vite-plugin-svelte@5.0.3':
+    resolution: {integrity: sha512-MCFS6CrQDu1yGwspm4qtli0e63vaPCehf6V7pIMP15AsWgMKrqDGCPFF/0kn4SP0ii4aySu4Pa62+fIRGFMjgw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
       svelte: ^5.0.0
@@ -3073,12 +3073,6 @@ packages:
   globals@15.14.0:
     resolution: {integrity: sha512-OkToC372DtlQeje9/zHIo5CT8lRP/FUgEOKBEhU4e0abL7J7CD24fD9ohiLN5hagG/kWCYj4K5oaxxtj2Z0Dig==}
     engines: {node: '>=18'}
-
-  globalyzer@0.1.0:
-    resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==}
-
-  globrex@0.1.2:
-    resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
   google-auth-library@9.15.1:
     resolution: {integrity: sha512-Jb6Z0+nvECVz+2lzSMt9u98UsoakXxA2HGHMCxh+so3n90XgYWkq5dur19JAJV7ONiJY22yBTyJB1TSkvPq9Ng==}
@@ -5153,9 +5147,6 @@ packages:
     resolution: {integrity: sha512-MyqZCTGLDZ77u4k+jqg4UlrzPTPZ49NDlaekU6uuFaJLzPIN1woaRXCbGeqOfxwc3Y37ZROGAJ614Rdv7Olt+g==}
     engines: {node: '>=10'}
 
-  tiny-glob@0.2.9:
-    resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
-
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
 
@@ -6976,9 +6967,9 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@sveltejs/adapter-vercel@5.6.1(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)':
+  '@sveltejs/adapter-vercel@5.6.1(@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)':
     dependencies:
-      '@sveltejs/kit': 2.15.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/kit': 2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@vercel/nft': 0.29.1(encoding@0.1.13)(rollup@4.34.6)
       esbuild: 0.24.2
     transitivePeerDependencies:
@@ -6997,9 +6988,9 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@sveltejs/kit@2.17.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -7012,21 +7003,20 @@ snapshots:
       set-cookie-parser: 2.7.1
       sirv: 3.0.0
       svelte: 5.19.8
-      tiny-glob: 0.2.9
       vite: 6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       debug: 4.4.0
       svelte: 5.19.8
       vite: 6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
+  '@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.19.8)(vite@6.0.3(@types/node@22.13.1)(jiti@1.21.7)(yaml@2.7.0))
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
@@ -9132,10 +9122,6 @@ snapshots:
   globals@14.0.0: {}
 
   globals@15.14.0: {}
-
-  globalyzer@0.1.0: {}
-
-  globrex@0.1.2: {}
 
   google-auth-library@9.15.1(encoding@0.1.13):
     dependencies:
@@ -11471,11 +11457,6 @@ snapshots:
   time-span@4.0.0:
     dependencies:
       convert-hrtime: 3.0.0
-
-  tiny-glob@0.2.9:
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
 
   tinybench@2.9.0: {}
 
