@@ -16,6 +16,7 @@
     "test:watch": "vitest --watch",
     "test:e2e": "playwright test",
     "test:ci": "vitest run && playwright test",
+    "test:ui": "vitest --ui",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
