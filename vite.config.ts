@@ -1,8 +1,8 @@
-import { sentrySvelteKit } from '@sentry/sveltekit';
 // SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
 //
 // SPDX-License-Identifier: CC0-1.0
 
+import { sentrySvelteKit } from '@sentry/sveltekit';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { defineConfig } from 'vitest/config';
@@ -17,7 +17,8 @@ export default defineConfig({
       }
     }),
     enhancedImages(),
-    sveltekit()
+    sveltekit(),
+    svelteTesting()
   ],
   test: {
     globals: true,

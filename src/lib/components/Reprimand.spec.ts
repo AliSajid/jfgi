@@ -31,7 +31,13 @@ describe('Reprimand Component', () => {
   it('has the correct container classes', () => {
     const { container } = render(Reprimand);
     const divElement = container.querySelector('#reprimand');
-    expect(divElement).toHaveClass('m-2', 'mx-auto', 'flex-row', 'content-center', 'justify-center');
+    expect(divElement).toHaveClass(
+      'm-2',
+      'mx-auto',
+      'flex-row',
+      'content-center',
+      'justify-center'
+    );
   });
 
   describe('Responsive Design Tests', () => {
@@ -62,7 +68,7 @@ describe('Reprimand Component', () => {
   describe('Accessibility Tests', () => {
     it('has sufficient color contrast', () => {
       const { container } = render(Reprimand);
-      const paragraph = container.querySelector('p');
+      const paragraph = container.querySelector('p') as HTMLElement;
 
       // Get computed styles
       const styles = window.getComputedStyle(paragraph);
@@ -97,7 +103,7 @@ describe('Reprimand Component', () => {
       );
 
       // Verify that any focusable elements can be reached
-      focusableElements.forEach(element => {
+      focusableElements.forEach((element) => {
         expect(element).toHaveAttribute('tabindex', expect.not.stringMatching(/-1/));
       });
     });
@@ -108,7 +114,7 @@ describe('Reprimand Component', () => {
         'button, [role="button"], [role="link"]'
       );
 
-      interactiveElements.forEach(element => {
+      interactiveElements.forEach((element) => {
         if (element.getAttribute('aria-label') || element.textContent) {
           expect(element).toHaveAccessibleName();
         }
@@ -117,7 +123,7 @@ describe('Reprimand Component', () => {
 
     it('preserves text spacing for readability', () => {
       const { container } = render(Reprimand);
-      const paragraph = container.querySelector('p');
+      const paragraph = container.querySelector('p') as HTMLElement;
       const styles = window.getComputedStyle(paragraph);
 
       // Check that no text-spacing properties are set too tight
@@ -135,7 +141,7 @@ describe('Reprimand Component', () => {
         window.dispatchEvent(new Event('resize'));
 
         const { container } = render(Reprimand);
-        const divElement = container.querySelector('#reprimand');
+        const divElement = container.querySelector('#reprimand') as HTMLElement;
 
         // Check that element remains centered
         expect(divElement).toHaveClass('mx-auto');
