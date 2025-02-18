@@ -70,7 +70,7 @@
     "@sentry/node": "^8.42.0",
     "@sentry/sveltekit": "^8",
     "@sentry/tracing": "7.120.3",
-    "@sveltejs/adapter-vercel": "5.6.1",
+    "@sveltejs/adapter-vercel": "5.6.2",
     "firebase": "11.0.2",
     "playwright": "^1.50.1"
   }

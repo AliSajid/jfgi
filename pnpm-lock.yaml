@@ -18,8 +18,8 @@ importers:
         specifier: 7.120.3
         version: 7.120.3
       '@sveltejs/adapter-vercel':
-        specifier: 5.6.1
-        version: 5.6.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)
+        specifier: 5.6.2
+        version: 5.6.2(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)
       firebase:
         specifier: 11.0.2
         version: 11.0.2
@@ -1627,8 +1627,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@sveltejs/adapter-vercel@5.6.1':
-    resolution: {integrity: sha512-ljeLT7p4VQtO9ux4p7MqSkNv+yMw9LcD0K8hl0TK495DhBbaBwOCx9jcp3+/RqGPzsTvTRJSiPRafIfiCjQqjQ==}
+  '@sveltejs/adapter-vercel@5.6.2':
+    resolution: {integrity: sha512-5cNqXRZRErfknuvCGisBG2uZlkKSIy5tmvmTV21+XKAn6Qob5rXVZVfZbnyzokbBdE4jmbNsGDTeSzxfUe1IPQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -7848,7 +7848,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@sveltejs/adapter-vercel@5.6.1(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)':
+  '@sveltejs/adapter-vercel@5.6.2(@sveltejs/kit@2.17.2(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(encoding@0.1.13)(rollup@4.34.6)':
     dependencies:
       '@sveltejs/kit': 2.17.2(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0)))(svelte@5.20.2)(vite@6.0.3(@types/node@22.13.4)(jiti@1.21.7)(yaml@2.7.0))
       '@vercel/nft': 0.29.1(encoding@0.1.13)(rollup@4.34.6)
