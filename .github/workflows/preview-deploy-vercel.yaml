@@ -50,9 +50,11 @@ jobs:
         run: pnpm install
       - name: Ensure playwright has the latest browser binaries
         run: pnpx playwright install --with-deps && npx playwright install --with-deps
+      - name: Ensure project configuration is synced
+        run: pnpm run prepare
       - name: Ensure project is formatted and linted
         run: pnpm run lint
-      - name: Ensure project syncs the configs
+      - name: Ensure project passes svelte checks
         run: pnpm run check
       - name: Build
         run: pnpm run build
