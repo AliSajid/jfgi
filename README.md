@@ -10,6 +10,7 @@ SPDX-License-Identifier: MIT
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Ffuckinggoogleit.com)](https://fuckinggoogleit.com)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions%3F-Yes%21-brightgreen.svg)](./CONTRIBUTING.md)
 [![Issues](https://img.shields.io/github/issues/AliSajid/jfgi)](https://github.com/AliSajid/jfgi/issues)
+![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/AliSajid/jfgi)
 
 Have you ever been baffled by someone's inability to use Google? Do you wish there was a way to nudge them in the right direction without resorting to sarcasm? Well, now there is! **Just fucking Google It** is a simple website for redirecting clueless questions into enlightening Google searches.
 
