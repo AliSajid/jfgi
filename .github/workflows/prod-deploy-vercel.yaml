@@ -39,10 +39,6 @@ jobs:
         with:
           node-version: '22'
           cache: 'pnpm'
-      - name: Install pnpm
-        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
-        with:
-          run_install: false
       - name: Install dependencies
         run: pnpm install
       - name: Ensure playwright has the latest browser binaries
@@ -92,15 +88,15 @@ jobs:
           else
             echo echo "PROJECT_ENVIRONMENT=preview" >> $GITHUB_ENV
           fi
+      - name: Install pnpm
+        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
+        with:
+          run_install: false
       - name: Setup NodeJS
         uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
         with:
           node-version: '22'
           cache: 'pnpm'
-      - name: Install pnpm
-        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
-        with:
-          run_install: false
       - name: Install dependencies
         run: pnpm install
       - name: Ensure project syncs the configs
