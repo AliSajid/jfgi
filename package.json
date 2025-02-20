@@ -39,7 +39,7 @@
     "@types/eslint__js": "8.42.3",
     "@types/jest": "29.5.14",
     "@types/node": "22.13.4",
-    "@vitest/ui": "3.0.5",
+    "@vitest/ui": "3.0.6",
     "autoprefixer": "10.4.20",
     "browserslist-useragent-regexp": "4.1.3",
     "daisyui": "4.12.23",
@@ -64,7 +64,7 @@
     "typescript-eslint": "8.24.1",
     "vercel": "39.4.2",
     "vite": "6.1.1",
-    "vitest": "3.0.5"
+    "vitest": "3.0.6"
   },
   "type": "module",
   "dependencies": {
