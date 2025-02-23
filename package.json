@@ -34,7 +34,6 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3",
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/container-queries": "0.1.1",
-    "@testing-library/svelte": "5.2.7",
     "@testing-library/jest-dom": "6.6.3",
     "@types/eslint__js": "9.14.0",
     "@types/jest": "29.5.14",
@@ -74,5 +73,10 @@
     "@sveltejs/adapter-vercel": "5.6.3",
     "firebase": "11.4.0",
     "playwright": "^1.50.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "svelte-preprocess"
+    ]
   }
 }
