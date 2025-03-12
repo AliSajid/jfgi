@@ -45,7 +45,7 @@
     "daisyui": "4.12.24",
     "eslint": "9.22.0",
     "eslint-config-prettier": "10.1.1",
-    "eslint-plugin-svelte": "2.46.1",
+    "eslint-plugin-svelte": "3.1.0",
     "eslint-plugin-tailwindcss": "3.18.0",
     "firebase-tools": "13.34.0",
     "globals": "15.15.0",
