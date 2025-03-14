@@ -62,7 +62,7 @@
     "tslib": "2.8.1",
     "typescript": "5.8.2",
     "typescript-eslint": "8.26.1",
-    "vercel": "41.4.0",
+    "vercel": "41.4.1",
     "vite": "6.2.1",
     "vitest": "3.0.8"
   },
