@@ -85,8 +85,8 @@ importers:
         specifier: 3.18.0
         version: 3.18.0(tailwindcss@4.0.15)
       firebase-tools:
-        specifier: 13.34.0
-        version: 13.34.0(encoding@0.1.13)
+        specifier: 13.35.1
+        version: 13.35.1(encoding@0.1.13)
       globals:
         specifier: 16.0.0
         version: 16.0.0
@@ -3301,8 +3301,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firebase-tools@13.34.0:
-    resolution: {integrity: sha512-1j3nJin7hgFu0mTWRejI1ZOS1JaXCe0TpgUNCyYrCX4yetdOCOxdFPbLJsgAc9TKaXkREYElj1X6G6UL+9Xfuw==}
+  firebase-tools@13.35.1:
+    resolution: {integrity: sha512-QmMy4hnd0Q+V+7GFhZUV80+kG0WC1+UOtuaaQWx+cstt+XepUcpju/KW4cBknnyql521BghfuAhveckQQ1g+HA==}
     engines: {node: '>=18.0.0 || >=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -9635,7 +9635,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firebase-tools@13.34.0(encoding@0.1.13):
+  firebase-tools@13.35.1(encoding@0.1.13):
     dependencies:
       '@electric-sql/pglite': 0.2.17
       '@google-cloud/cloud-sql-connector': 1.6.1(encoding@0.1.13)
