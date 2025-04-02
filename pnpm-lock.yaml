@@ -70,8 +70,8 @@ importers:
         specifier: 4.1.3
         version: 4.1.3(browserslist@4.24.4)
       daisyui:
-        specifier: 5.0.9
-        version: 5.0.9
+        specifier: 5.0.12
+        version: 5.0.12
       eslint:
         specifier: 9.23.0
         version: 9.23.0
@@ -2692,8 +2692,8 @@ packages:
   csv-parse@5.6.0:
     resolution: {integrity: sha512-l3nz3euub2QMg5ouu5U09Ew9Wf6/wQ8I++ch1loQ0ljmzhmfZYrH9fflS22i/PQEvsPvxCwxgz5q7UB8K1JO4Q==}
 
-  daisyui@5.0.9:
-    resolution: {integrity: sha512-RsaehHh45f+0shWgZZaOY09/8eOae2voRsqJCD71j9yrnYgcke0Nj5ys0ZxrW4SPcc4+q96kWyJu0Z8P1zZdoA==}
+  daisyui@5.0.12:
+    resolution: {integrity: sha512-01DU0eYBcHgPtuf5fxcrkGkIN6/Uyaqmkle5Yo3ZyW9YVAu036ALZbjv2KH5euvUbeQ4r9q3gAarGcf7Tywhng==}
 
   data-uri-to-buffer@6.0.2:
     resolution: {integrity: sha512-7hvf7/GW8e86rW0ptuwS3OcBGDjIi6SZva7hCyWC0yYry2cOPmLIjXAUHI6DK2HsnwJd9ifmt57i8eV2n4YNpw==}
@@ -9000,7 +9000,7 @@ snapshots:
 
   csv-parse@5.6.0: {}
 
-  daisyui@5.0.9: {}
+  daisyui@5.0.12: {}
 
   data-uri-to-buffer@6.0.2: {}
 
