@@ -20,8 +20,7 @@ export default defineConfig({
     tailwindcss(),
     enhancedImages(),
     sveltekit(),
-    svelteTesting(),
-    tailwindcss()
+    svelteTesting()
   ],
   test: {
     globals: true,
