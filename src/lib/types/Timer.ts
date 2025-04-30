@@ -17,8 +17,8 @@ export class Timer {
    */
   constructor(
     durationSeconds: number = 10,
-    onUpdate: (timeRemaining: number, progressPercent: number) => void = () => { },
-    onComplete: () => void = () => { }
+    onUpdate: (timeRemaining: number, progressPercent: number) => void = () => {},
+    onComplete: () => void = () => {}
   ) {
     this.duration = durationSeconds * 1000; // Convert to milliseconds
     this.onUpdateCallback = onUpdate;
@@ -57,10 +57,7 @@ export class Timer {
     this.startTime = null;
 
     // Reset to initial state
-    this.onUpdateCallback(
-      Math.ceil(this.duration / 1000),
-      100
-    );
+    this.onUpdateCallback(Math.ceil(this.duration / 1000), 100);
 
     if (autoStart) {
       this.start();
@@ -106,7 +103,7 @@ export class Timer {
    * Gets current state
    * @returns Object containing current timer state
    */
-  public getState(): { timeRemaining: number, progressPercent: number, isRunning: boolean } {
+  public getState(): { timeRemaining: number; progressPercent: number; isRunning: boolean } {
     const remainingMs = this.startTime
       ? Math.max(this.duration - (performance.now() - this.startTime), 0)
       : this.duration;
