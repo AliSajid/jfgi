@@ -52,7 +52,7 @@ importers:
         specifier: 6.6.3
         version: 6.6.3
       '@testing-library/svelte':
-        specifier: ^5.2.7
+        specifier: 5.2.7
         version: 5.2.7(svelte@5.28.2)(vite@6.3.3(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vitest@3.1.2)
       '@types/jest':
         specifier: 29.5.14
