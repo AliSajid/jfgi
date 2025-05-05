@@ -30,7 +30,7 @@ repos:
           - prettier-plugin-svelte
           - svelte
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.37.0
+    rev: v1.37.1
     hooks:
       - id: yamllint
         args: [--config-file, .yamllint.yaml]
