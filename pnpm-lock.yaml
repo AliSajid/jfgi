@@ -85,8 +85,8 @@ importers:
         specifier: 3.7.0
         version: 3.7.0(eslint@9.26.0(jiti@2.4.2))(svelte@5.30.1)(ts-node@10.9.1(@types/node@22.15.18)(typescript@5.8.3))
       firebase-tools:
-        specifier: 14.3.1
-        version: 14.3.1(@types/node@22.15.18)(encoding@0.1.13)
+        specifier: 14.4.0
+        version: 14.4.0(@types/node@22.15.18)(encoding@0.1.13)
       globals:
         specifier: 16.1.0
         version: 16.1.0
@@ -3427,8 +3427,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firebase-tools@14.3.1:
-    resolution: {integrity: sha512-DiP2L/rA+jLDckSbFXcM2datqbPQVbIT/51LB84GFTIcS+8TBR8sKKHz/MunapEg3ufdAnBEkdj5s96CxeyXKg==}
+  firebase-tools@14.4.0:
+    resolution: {integrity: sha512-avJJrEoWdlntCc1OWo55pt53CDWPmTMMkh4vKsQEgMxVPLIesUg2OqP3XdlUZuOe4o2yP/58r+73BTyJjQKoVA==}
     engines: {node: '>=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -10053,7 +10053,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firebase-tools@14.3.1(@types/node@22.15.18)(encoding@0.1.13):
+  firebase-tools@14.4.0(@types/node@22.15.18)(encoding@0.1.13):
     dependencies:
       '@electric-sql/pglite': 0.2.17
       '@google-cloud/cloud-sql-connector': 1.8.0(encoding@0.1.13)
@@ -10087,6 +10087,7 @@ snapshots:
       gaxios: 6.7.1(encoding@0.1.13)
       glob: 10.4.5
       google-auth-library: 9.15.1(encoding@0.1.13)
+      ignore: 7.0.4
       js-yaml: 3.14.1
       jsonwebtoken: 9.0.2
       leven: 3.1.0
