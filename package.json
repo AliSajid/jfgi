@@ -36,7 +36,7 @@
     "@tailwindcss/container-queries": "0.1.1",
     "@tailwindcss/vite": "4.1.7",
     "@testing-library/jest-dom": "6.6.3",
-    "@testing-library/svelte": "5.2.7",
+    "@testing-library/svelte": "5.2.8",
     "@types/jest": "29.5.14",
     "@types/node": "22.15.19",
     "@vitest/ui": "3.1.3",
