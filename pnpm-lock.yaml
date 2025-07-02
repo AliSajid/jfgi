@@ -127,8 +127,8 @@ importers:
         specifier: 8.35.1
         version: 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       vercel:
-        specifier: 44.2.7
-        version: 44.2.7(encoding@0.1.13)(rollup@4.44.1)
+        specifier: 44.2.8
+        version: 44.2.8(encoding@0.1.13)(rollup@4.44.1)
       vite:
         specifier: 7.0.0
         version: 7.0.0(@types/node@22.15.34)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0)
@@ -6109,8 +6109,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vercel@44.2.7:
-    resolution: {integrity: sha512-Y4RvCHxYSL82K5qp7l8jmAkHohJO/dBBuXb736RhD+LK8hD8ivOs2fGb9cvuEikkv57CK7iG2RsBZw7kAh22eg==}
+  vercel@44.2.8:
+    resolution: {integrity: sha512-sEvKPP4S/9LK4S8pAxjpJOgg1skUvXFUr9y+8G3ScjevH5HK389f6/qlMgNezkP+yLzjW04v0GW2pFpL3iaQcQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -13228,7 +13228,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@44.2.7(encoding@0.1.13)(rollup@4.44.1):
+  vercel@44.2.8(encoding@0.1.13)(rollup@4.44.1):
     dependencies:
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 10.6.1
