@@ -109,8 +109,8 @@ importers:
         specifier: 5.36.7
         version: 5.36.7
       svelte-check:
-        specifier: 4.2.2
-        version: 4.2.2(picomatch@4.0.3)(svelte@5.36.7)(typescript@5.8.3)
+        specifier: 4.3.0
+        version: 4.3.0(picomatch@4.0.3)(svelte@5.36.7)(typescript@5.8.3)
       svelte-preprocess:
         specifier: 6.0.3
         version: 6.0.3(@babel/core@7.28.0)(postcss-load-config@3.1.4(postcss@8.5.6)(ts-node@10.9.1(@types/node@22.16.4)(typescript@5.8.3)))(postcss@8.5.6)(svelte@5.36.7)(typescript@5.8.3)
@@ -5798,8 +5798,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  svelte-check@4.2.2:
-    resolution: {integrity: sha512-1+31EOYZ7NKN0YDMKusav2hhEoA51GD9Ws6o//0SphMT0ve9mBTsTUEX7OmDMadUP3KjNHsSKtJrqdSaD8CrGQ==}
+  svelte-check@4.3.0:
+    resolution: {integrity: sha512-Iz8dFXzBNAM7XlEIsUjUGQhbEE+Pvv9odb9+0+ITTgFWZBGeJRRYqHUUglwe2EkLD5LIsQaAc4IUJyvtKuOO5w==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -12964,7 +12964,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.2.2(picomatch@4.0.3)(svelte@5.36.7)(typescript@5.8.3):
+  svelte-check@4.3.0(picomatch@4.0.3)(svelte@5.36.7)(typescript@5.8.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.29
       chokidar: 4.0.3
