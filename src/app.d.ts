@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+// SPDX-FileCopyrightText: 2022 - 2025 Ali Sajid Imami
 //
 // SPDX-License-Identifier: MIT
 
@@ -7,7 +7,6 @@
 // and what to do when importing types
 declare namespace App {
   interface Locals {
-    isExplicit: boolean;
     isLocalhost: boolean;
     hostname: string;
   }
