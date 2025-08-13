@@ -5,7 +5,7 @@ SPDX-License-Identifier: MIT
 -->
 
 <script lang="ts">
-  import Reprimand from '$lib/components/Reprimand.svelte';
+  import { Reprimand } from '$lib/components';
   import type { PageData } from './$types';
 
   interface Props {

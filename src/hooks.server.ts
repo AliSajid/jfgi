@@ -16,8 +16,6 @@ export const handle: Handle = sequence(Sentry.sentryHandle(), async ({ event, re
 
   event.locals.hostname = hostname;
   event.locals.isLocalhost = hostname?.toLowerCase().includes('local');
-  event.locals.isExplicit =
-    hostname?.toLowerCase().includes('fucking') || hostname?.toLowerCase().includes('localtest');
 
   return await resolve(event);
 });

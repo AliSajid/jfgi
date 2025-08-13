@@ -1,12 +1,12 @@
 <!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+SPDX-FileCopyrightText: 2022 - 2025 Ali Sajid Imami
 
 SPDX-License-Identifier: MIT
 -->
 
 <script lang="ts">
   import type { Counter } from '$lib/types/Counter';
-  import { suffixes } from '$lib/suffixes';
+  import { suffixes } from '$lib/data/suffixes';
   interface Props {
     count: Counter;
   }

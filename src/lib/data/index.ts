@@ -2,8 +2,6 @@
 //
 // SPDX-License-Identifier: MIT
 
-type Counter = {
-  count: number;
-};
-
-export type { Counter };
+// Data exports
+export * from './imageData';
+export { suffixes } from './suffixes';

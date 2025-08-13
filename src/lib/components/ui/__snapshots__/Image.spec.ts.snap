@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Image > matches snapshot 1`] = `
+<div>
+  <div
+    class="mx-auto h-full flex-row justify-center object-center"
+  >
+    <div
+      class="carousel carousel-vertical mx-auto"
+    >
+      <img
+        alt="Master Yoda looking at you; Overlay Text says 'Use Google, You Should'"
+        class="carousel-item mx-auto w-6/12 object-contain"
+        sizes="min(1280px, 40vw)"
+        src="[object Object]"
+      />
+      <!---->
+    </div>
+  </div>
+
+</div>
+`;

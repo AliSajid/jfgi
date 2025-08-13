@@ -4,15 +4,16 @@ exports[`Reprimand Component > matches desktop snapshot 1`] = `
 <div>
   <div
     class="m-2 mx-auto flex-row content-center justify-center"
+    data-testid="reprimand-message"
     id="reprimand"
   >
     <p
-      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+      class="text-lg font-medium md:text-2xl lg:text-4xl"
     >
       Make sure you Google stuff yourself first.
     </p>
   </div>
-  
+
 </div>
 `;
 
@@ -20,15 +21,16 @@ exports[`Reprimand Component > matches laptop snapshot 1`] = `
 <div>
   <div
     class="m-2 mx-auto flex-row content-center justify-center"
+    data-testid="reprimand-message"
     id="reprimand"
   >
     <p
-      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+      class="text-lg font-medium md:text-2xl lg:text-4xl"
     >
       Make sure you Google stuff yourself first.
     </p>
   </div>
-  
+
 </div>
 `;
 
@@ -36,15 +38,16 @@ exports[`Reprimand Component > matches mobile snapshot 1`] = `
 <div>
   <div
     class="m-2 mx-auto flex-row content-center justify-center"
+    data-testid="reprimand-message"
     id="reprimand"
   >
     <p
-      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+      class="text-lg font-medium md:text-2xl lg:text-4xl"
     >
       Make sure you Google stuff yourself first.
     </p>
   </div>
-  
+
 </div>
 `;
 
@@ -52,14 +55,15 @@ exports[`Reprimand Component > matches tablet snapshot 1`] = `
 <div>
   <div
     class="m-2 mx-auto flex-row content-center justify-center"
+    data-testid="reprimand-message"
     id="reprimand"
   >
     <p
-      class="lg:tex-4xl text-lg font-medium md:text-2xl"
+      class="text-lg font-medium md:text-2xl lg:text-4xl"
     >
       Make sure you Google stuff yourself first.
     </p>
   </div>
-  
+
 </div>
 `;
