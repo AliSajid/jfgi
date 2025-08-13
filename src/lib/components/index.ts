@@ -2,8 +2,6 @@
 //
 // SPDX-License-Identifier: MIT
 
-type Counter = {
-  count: number;
-};
-
-export type { Counter };
+// Main components export
+export * from './ui';
+export * from './features';

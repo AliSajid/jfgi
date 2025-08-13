@@ -7,7 +7,7 @@ SPDX-License-Identifier: MIT
 <script lang="ts">
   import { browser } from '$app/environment';
   import { page } from '$app/stores';
-  import CountdownTimer from '$lib/components/CountdownTimer.svelte';
+  import { CountdownTimer } from '$lib/components';
   import type { PageData } from '../$types';
 
   interface Props {

@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2022 - 2024 Ali Sajid Imami
+SPDX-FileCopyrightText: 2022 - 2025 Ali Sajid Imami
 SPDX-License-Identifier: MIT
 -->
 <script lang="ts">
@@ -48,7 +48,11 @@ SPDX-License-Identifier: MIT
   });
 </script>
 
-<div class="mx-auto flex-row content-center object-center" id="countdown">
+<div
+  class="mx-auto flex-row content-center object-center"
+  id="countdown"
+  data-testid="countdown-timer"
+>
   <div class="radial-progress" style="--value:{currentProgress};" role="progressbar">
     <span class="countdown font-mono text-sm lg:text-2xl">
       <span style="--value:{currentSecond}"></span>

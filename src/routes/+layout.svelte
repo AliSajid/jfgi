@@ -7,7 +7,7 @@ SPDX-License-Identifier: MIT
 <script lang="ts" module>
   import { getPerformance } from 'firebase/performance';
   import { getAnalytics } from 'firebase/analytics';
-  import { app } from '$lib/firebase';
+  import { app } from '$lib/services/firebase';
   import { browser } from '$app/environment';
 
   if (browser) {
@@ -20,9 +20,7 @@ SPDX-License-Identifier: MIT
 
 <script lang="ts">
   import '../app.css';
-  import Title from '$lib/components/Title.svelte';
-  import Image from '$lib/components/Image.svelte';
-  import VisitorCounter from '$lib/components/VisitorCounter.svelte';
+  import { Title, Image, VisitorCounter } from '$lib/components';
 
   import type { LayoutData } from './$types';
 

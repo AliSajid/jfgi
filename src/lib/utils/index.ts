@@ -2,8 +2,5 @@
 //
 // SPDX-License-Identifier: MIT
 
-type Counter = {
-  count: number;
-};
-
-export type { Counter };
+// Utility functions
+export * from './redirect';

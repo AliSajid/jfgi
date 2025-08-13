@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: MIT
 
 import type { RequestHandler } from '@sveltejs/kit';
-import { handleSearchRedirect } from '$lib/redirect';
+import { handleSearchRedirect } from '$lib/utils/redirect';
 
 export const GET: RequestHandler = ({ url }) => {
   const response = handleSearchRedirect(url);
