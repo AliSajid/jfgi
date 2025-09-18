@@ -39,7 +39,7 @@
     "@testing-library/jest-dom": "6.8.0",
     "@testing-library/svelte": "5.2.8",
     "@types/jest": "30.0.0",
-    "@types/node": "24.5.1",
+    "@types/node": "24.5.2",
     "@vitest/ui": "3.2.4",
     "autoprefixer": "10.4.21",
     "browserslist-useragent-regexp": "4.1.3",
