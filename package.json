@@ -36,7 +36,7 @@
     "@tailwindcss/aspect-ratio": "0.4.2",
     "@tailwindcss/container-queries": "0.1.1",
     "@tailwindcss/vite": "4.1.14",
-    "@testing-library/jest-dom": "6.8.0",
+    "@testing-library/jest-dom": "6.9.1",
     "@testing-library/svelte": "5.2.8",
     "@types/jest": "30.0.0",
     "@types/node": "24.5.2",
