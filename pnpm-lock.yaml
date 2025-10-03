@@ -34,8 +34,8 @@ importers:
         specifier: 1.54.2
         version: 1.54.2
       '@sveltejs/enhanced-img':
-        specifier: 0.8.2
-        version: 0.8.2(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(rollup@4.46.2)(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))
+        specifier: 0.8.3
+        version: 0.8.3(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(rollup@4.46.2)(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))
       '@sveltejs/kit':
         specifier: 2.43.7
         version: 2.43.7(@opentelemetry/api@1.9.0)(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))
@@ -1847,8 +1847,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
-  '@sveltejs/enhanced-img@0.8.2':
-    resolution: {integrity: sha512-fWhAJEjoFxL+2XzPxRT0kVnyWNYU+j7ZNHyAEBVoydFjIbRe4XMhOkT8cSvX5UB0pXWF8AvKpDeuH5pRZyTB2g==}
+  '@sveltejs/enhanced-img@0.8.3':
+    resolution: {integrity: sha512-UM56PSQHbXBvRw5/Ah7R4vxrTR4xbB5/7gTE/7bypVGOGx0pBwTloWXsnLfJXEFI+YYR7IU4jtbYcp4pBXaUSg==}
     peerDependencies:
       '@sveltejs/vite-plugin-svelte': ^6.0.0
       svelte: ^5.0.0
@@ -8424,7 +8424,7 @@ snapshots:
     dependencies:
       '@sentry/browser': 10.5.0
       '@sentry/core': 10.5.0
-      magic-string: 0.30.18
+      magic-string: 0.30.19
       svelte: 5.39.8
 
   '@sentry/sveltekit@10.5.0(@sveltejs/kit@2.43.7(@opentelemetry/api@1.9.0)(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(encoding@0.1.13)(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))':
@@ -8495,10 +8495,10 @@ snapshots:
       - rollup
       - supports-color
 
-  '@sveltejs/enhanced-img@0.8.2(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(rollup@4.46.2)(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))':
+  '@sveltejs/enhanced-img@0.8.3(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)))(rollup@4.46.2)(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.39.8)(vite@7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1))
-      magic-string: 0.30.18
+      magic-string: 0.30.19
       sharp: 0.34.3
       svelte: 5.39.8
       svelte-parse-markup: 0.1.5(svelte@5.39.8)
@@ -9134,7 +9134,7 @@ snapshots:
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
-      magic-string: 0.30.18
+      magic-string: 0.30.19
     optionalDependencies:
       vite: 7.1.7(@types/node@24.5.2)(jiti@2.6.1)(lightningcss@1.30.1)(yaml@2.8.1)
 
@@ -9151,7 +9151,7 @@ snapshots:
   '@vitest/snapshot@3.2.4':
     dependencies:
       '@vitest/pretty-format': 3.2.4
-      magic-string: 0.30.18
+      magic-string: 0.30.19
       pathe: 2.0.3
 
   '@vitest/spy@3.2.4':
