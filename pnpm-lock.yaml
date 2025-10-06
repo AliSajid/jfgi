@@ -85,8 +85,8 @@ importers:
         specifier: 3.12.4
         version: 3.12.4(eslint@9.36.0(jiti@2.6.1))(svelte@5.39.8)(ts-node@10.9.1(@types/node@24.7.0)(typescript@5.9.3))
       firebase-tools:
-        specifier: 14.17.0
-        version: 14.17.0(@types/node@24.7.0)(encoding@0.1.13)
+        specifier: 14.18.0
+        version: 14.18.0(@types/node@24.7.0)(encoding@0.1.13)
       globals:
         specifier: 16.4.0
         version: 16.4.0
@@ -3645,8 +3645,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firebase-tools@14.17.0:
-    resolution: {integrity: sha512-BWOfB9kokuRZbfRpr1AJrMiJHzyp8TjTNmYlgmHnGcBOAwtDinaeceqiKwLyZ6SucnOWj6Ca73DubqbAj+DmKw==}
+  firebase-tools@14.18.0:
+    resolution: {integrity: sha512-k4OVoIMvD38VMSH0a48H2NfhtmrfklQGOLBiw3+atc751anksLzs93hyHFmLISr7Vzb5gP7pkpmc54HBgqQXZg==}
     engines: {node: '>=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -4780,21 +4780,12 @@ packages:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
 
-  minizlib@3.0.2:
-    resolution: {integrity: sha512-oG62iEk+CYt5Xj2YqI5Xi9xWUeZhDI8jjQmC5oThVH5JGCTgIjr7ciJDzC7MBzYd//WvR1OTmP5Q38Q8ShQtVA==}
-    engines: {node: '>= 18'}
-
   minizlib@3.1.0:
     resolution: {integrity: sha512-KZxYo1BUkWD2TVFLr0MQoM8vUUigWD3LlD83a/75BqC+4qE0Hb1Vo5v1FgcfaNXvfXzr+5EhQ6ing/CaBijTlw==}
     engines: {node: '>= 18'}
 
   mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
-    engines: {node: '>=10'}
-    hasBin: true
-
-  mkdirp@3.0.1:
-    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -5930,10 +5921,6 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
-
-  tar@7.4.3:
-    resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
-    engines: {node: '>=18'}
 
   tar@7.5.1:
     resolution: {integrity: sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g==}
@@ -7822,7 +7809,7 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
       nopt: 8.1.0
       semver: 7.7.2
-      tar: 7.4.3
+      tar: 7.5.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -9555,7 +9542,7 @@ snapshots:
       minipass-pipeline: 1.2.4
       p-map: 7.0.3
       ssri: 12.0.0
-      tar: 7.4.3
+      tar: 7.5.1
       unique-filename: 4.0.0
     optional: true
 
@@ -10534,7 +10521,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firebase-tools@14.17.0(@types/node@24.7.0)(encoding@0.1.13):
+  firebase-tools@14.18.0(@types/node@24.7.0)(encoding@0.1.13):
     dependencies:
       '@electric-sql/pglite': 0.3.7
       '@electric-sql/pglite-tools': 0.2.12(@electric-sql/pglite@0.3.7)
@@ -11968,7 +11955,7 @@ snapshots:
     dependencies:
       minipass: 7.1.2
       minipass-sized: 1.0.3
-      minizlib: 3.0.2
+      minizlib: 3.1.0
     optionalDependencies:
       encoding: 0.1.13
     optional: true
@@ -12003,17 +11990,11 @@ snapshots:
       minipass: 3.3.6
       yallist: 4.0.0
 
-  minizlib@3.0.2:
-    dependencies:
-      minipass: 7.1.2
-
   minizlib@3.1.0:
     dependencies:
       minipass: 7.1.2
 
   mkdirp@1.0.4: {}
-
-  mkdirp@3.0.1: {}
 
   module-details-from-path@1.0.4: {}
 
@@ -12117,7 +12098,7 @@ snapshots:
       nopt: 8.1.0
       proc-log: 5.0.0
       semver: 7.7.2
-      tar: 7.4.3
+      tar: 7.5.1
       tinyglobby: 0.2.15
       which: 5.0.0
     transitivePeerDependencies:
@@ -13167,15 +13148,6 @@ snapshots:
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
-
-  tar@7.4.3:
-    dependencies:
-      '@isaacs/fs-minipass': 4.0.1
-      chownr: 3.0.0
-      minipass: 7.1.2
-      minizlib: 3.0.2
-      mkdirp: 3.0.1
-      yallist: 5.0.0
 
   tar@7.5.1:
     dependencies:
