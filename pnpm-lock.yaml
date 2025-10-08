@@ -85,8 +85,8 @@ importers:
         specifier: 3.12.4
         version: 3.12.4(eslint@9.36.0(jiti@2.6.1))(svelte@5.39.10)(ts-node@10.9.1(@types/node@24.7.0)(typescript@5.9.3))
       firebase-tools:
-        specifier: 14.18.0
-        version: 14.18.0(@types/node@24.7.0)(encoding@0.1.13)
+        specifier: 14.19.0
+        version: 14.19.0(@types/node@24.7.0)(encoding@0.1.13)
       globals:
         specifier: 16.4.0
         version: 16.4.0
@@ -3651,8 +3651,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firebase-tools@14.18.0:
-    resolution: {integrity: sha512-k4OVoIMvD38VMSH0a48H2NfhtmrfklQGOLBiw3+atc751anksLzs93hyHFmLISr7Vzb5gP7pkpmc54HBgqQXZg==}
+  firebase-tools@14.19.0:
+    resolution: {integrity: sha512-3ZkH+yM8wUqkaJMtMEPQBh2tnPfisLenlsfyqoXs4GMrUngtE3JFJLLvmgLLgXi9FwdperMfSZz9zXqb9BrIpw==}
     engines: {node: '>=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -10540,7 +10540,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firebase-tools@14.18.0(@types/node@24.7.0)(encoding@0.1.13):
+  firebase-tools@14.19.0(@types/node@24.7.0)(encoding@0.1.13):
     dependencies:
       '@electric-sql/pglite': 0.3.7
       '@electric-sql/pglite-tools': 0.2.12(@electric-sql/pglite@0.3.7)
