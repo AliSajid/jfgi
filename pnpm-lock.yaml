@@ -85,8 +85,8 @@ importers:
         specifier: 3.12.4
         version: 3.12.4(eslint@9.37.0(jiti@2.6.1))(svelte@5.40.1)(ts-node@10.9.1(@types/node@24.7.2)(typescript@5.9.3))
       firebase-tools:
-        specifier: 14.19.1
-        version: 14.19.1(@types/node@24.7.2)(encoding@0.1.13)(typescript@5.9.3)
+        specifier: 14.20.0
+        version: 14.20.0(@types/node@24.7.2)(encoding@0.1.13)(typescript@5.9.3)
       globals:
         specifier: 16.4.0
         version: 16.4.0
@@ -3670,8 +3670,8 @@ packages:
     resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==}
     engines: {node: '>=10'}
 
-  firebase-tools@14.19.1:
-    resolution: {integrity: sha512-ZUmmlH9n8Ny+d4Dzzo59usCqTe5vVGbyeyXg6Zp0gsut5oa56jJY0Eyod5UZ2RTkdO/vEfhYwzE0dYFhhkGOuQ==}
+  firebase-tools@14.20.0:
+    resolution: {integrity: sha512-8zduD1/tpm8tEf4V6dOdveLHVttPUdnubZeZksdvRcetJuffNuU+Ugr4/JsObhxJP0n0Npb2MvPMHln6xKHMXw==}
     engines: {node: '>=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -10628,7 +10628,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firebase-tools@14.19.1(@types/node@24.7.2)(encoding@0.1.13)(typescript@5.9.3):
+  firebase-tools@14.20.0(@types/node@24.7.2)(encoding@0.1.13)(typescript@5.9.3):
     dependencies:
       '@apphosting/build': 0.1.6(@types/node@24.7.2)(typescript@5.9.3)
       '@apphosting/common': 0.0.8
