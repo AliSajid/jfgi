@@ -75,7 +75,7 @@
     "@sentry/sveltekit": "10.5.0",
     "@sentry/tracing": "7.120.4",
     "@sveltejs/adapter-vercel": "5.8.2",
-    "firebase": "12.3.0",
+    "firebase": "12.18.0",
     "playwright": "1.54.2"
   },
   "pnpm": {
